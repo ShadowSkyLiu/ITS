@@ -25,6 +25,10 @@ abstruct:A general approach to the real-time estimation of the complete traffic 
 
 Freeway; Traffic state estimation; Stochastic macroscopic traffic flow model; Extended Kalman filter; Model parameter estimation
 
+input: speed of all vehicles & number of vehicles in each segment.
+real-time measurements of flow, space mean speed, On-ramp inflow and off-ramp outflow
+
+
 
 
 
