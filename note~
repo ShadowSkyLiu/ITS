@@ -1,0 +1,9 @@
+1. Freeway traffic estimation within particle filtering framework
+
+general model: (macroscopic models), (EKF: disadvantages,linear)
+model: Based on speed-extended cell-transmission model, particle filtering framework, Kalman filter
+
+test: The PF performance is validated and evaluated using synthetic and real traffic data from a Belgian freeway
+
+advantages: Particle filtering allows to cope with uncertainties and nonlinearities of any kind and hence is suitable for the traffic estimation problem. Another motivation for suggesting the PF approach to the traffic flow estimation is its modularity. It is a compositional approach to filtering that is easily adapted to changes in the model of large traffic networks
+
