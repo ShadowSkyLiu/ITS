@@ -7,3 +7,20 @@ test: The PF performance is validated and evaluated using synthetic and real tra
 
 advantages: Particle filtering allows to cope with uncertainties and nonlinearities of any kind and hence is suitable for the traffic estimation problem. Another motivation for suggesting the PF approach to the traffic flow estimation is its modularity. It is a compositional approach to filtering that is easily adapted to changes in the model of large traffic networks
 
+distanvage: nevertheless the PF is more computationally expensive
+out: traffic density and speed
+
+input: number of vehicles counted in segment i and average speed  
+      Sensors are available only at some boundaries between segments. Technological limitations, such as limited bandwidth of communication channels, force one to average the measurements over regular or irregular time intervals before they are transmitted to the agent where the Bayesian update of conditional
+densities is carried out.
+
+
+
+
+
+2. Real-time freeway traffic state estimation based on extended Kalman filter: a general approach
+ A number of simulations are conducted to test the designed traffic state estimator under various traffic situations in a freeway stretch with on/off-ramps and a long inter-detector distance
+
+abstruct:A general approach to the real-time estimation of the complete traffic state in freeway stretches is developed based on the extended Kalman filter. First, a general stochastic macroscopic traffic flow model of freeway stretches is presented, while some simple formulae are proposed to model real-time traffic measurements. Second, the macroscopic traffic flow model along with the measurement model is organized in a compact state-space form, based on which a traffic state estimator is designed by use of the extended-Kalman-filtering method. While constructing the traffic state estimator, special attention is paid to the handling of the boundary conditions and unknown parameters of the macroscopic traffic flow model. A number of simulations are conducted to test the designed traffic state estimator under various traffic situations in a freeway stretch with on/off-ramps and a long inter-detector distance. Some key issues are carefully investigated, including tracking capability of the traffic state estimator, comparison of various estimation schemes, evaluation of different detector configurations, significance of the on-line model parameter estimation, sensitivity of the traffic state estimator to the initial values of the estimated model parameters and to the related standard deviation values, and dynamic tracking of time-varying model parameters. The achieved simulation results are very promising for the subsequent development and testing work that is briefly outlined.
+
+
